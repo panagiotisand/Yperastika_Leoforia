@@ -1,0 +1,196 @@
+
+src/Admin.java:24	Avoid unused imports such as 'java.io.IOException'
+src/Admin.java:24	Avoid unused imports such as 'java.io.IOException'
+src/Admin.java:29	All classes and interfaces must belong to a named package
+src/Admin.java:29	The class 'Admin' has a Cyclomatic Complexity of 7 (Highest = 12).
+src/Admin.java:31	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin.java:31	Perhaps 'contentPane' could be replaced by a local variable.
+src/Admin.java:31	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/Admin.java:32	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin.java:32	Use explicit scoping instead of the default package private level
+src/Admin.java:32	Variables should start with a lowercase character
+src/Admin.java:33	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin.java:33	Use explicit scoping instead of the default package private level
+src/Admin.java:34	Avoid excessively long variable names like AnnouncementCounter
+src/Admin.java:34	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin.java:34	Use explicit scoping instead of the default package private level
+src/Admin.java:34	Variables should start with a lowercase character
+src/Admin.java:35	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin.java:35	Use explicit scoping instead of the default package private level
+src/Admin.java:36	Use explicit scoping instead of the default package private level
+src/Admin.java:37	Private field 'Name_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Admin.java:37	Variables should start with a lowercase character
+src/Admin.java:37	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/Admin.java:38	Private field 'Day_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Admin.java:38	Variables should start with a lowercase character
+src/Admin.java:39	Private field 'Time_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Admin.java:40	Private field 'Route_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Admin.java:41	Avoid excessively long variable names like Code_Day_TextField
+src/Admin.java:44	Avoid excessively long variable names like Send_Announcement_TextField
+src/Admin.java:45	Avoid excessively long variable names like Announcement_TextArea
+src/Admin.java:50	Method names should not contain underscores
+src/Admin.java:50	Parameter 'Username' is not assigned and could be declared final
+src/Admin.java:60	It is a good practice to call super() in a constructor
+src/Admin.java:60	The constructor 'Admin' has a Cyclomatic Complexity of 12.
+src/Admin.java:60	The constructor with 0 parameters has an NCSS line count of 101
+src/Admin.java:72	Local variable 'label' could be declared final
+src/Admin.java:76	Local variable 'lblNewLabel' could be declared final
+src/Admin.java:80	Local variable 'separator' could be declared final
+src/Admin.java:84	Local variable 'label_1' could be declared final
+src/Admin.java:88	Local variable 'label_2' could be declared final
+src/Admin.java:165	Avoid excessively long variable names like Announcement_TextArea_1
+src/Admin.java:184	Parameter 'arg0' is not assigned and could be declared final
+src/Admin.java:191	Ensure that resources like this Connection object are closed after use
+src/Admin.java:191	The String literal "bF2*sC8!" appears 5 times in this file; the first occurrence is on line 191
+src/Admin.java:191	The String literal "jdbc:mysql://sql2.freesqldatabase.com:3306/sql22538" appears 5 times in this file; the first occurrence is on line 191
+src/Admin.java:191	The String literal "sql22538" appears 5 times in this file; the first occurrence is on line 191
+src/Admin.java:193	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/Admin.java:193	Ensure that resources like this ResultSet object are closed after use
+src/Admin.java:200	Avoid empty catch blocks
+src/Admin.java:214	Ensure that resources like this Connection object are closed after use
+src/Admin.java:216	Ensure that resources like this ResultSet object are closed after use
+src/Admin.java:230	Avoid empty catch blocks
+src/Admin.java:248	Avoid variables with short names like e
+src/Admin.java:248	Parameter 'e' is not assigned and could be declared final
+src/Admin.java:262	Avoid variables with short names like e
+src/Admin.java:262	Parameter 'e' is not assigned and could be declared final
+src/Admin.java:270	System.out.print is used
+src/Admin.java:273	Ensure that resources like this Connection object are closed after use
+src/Admin.java:276	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/Admin.java:279	Avoid variables with short names like C
+src/Admin.java:279	Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+src/Admin.java:279	Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+src/Admin.java:279	Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+src/Admin.java:279	Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+src/Admin.java:288	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/Admin.java:299	Avoid empty catch blocks
+src/Admin.java:316	Avoid variables with short names like e
+src/Admin.java:316	Parameter 'e' is not assigned and could be declared final
+src/Admin.java:329	System.out.print is used
+src/Admin.java:330	System.out.print is used
+src/Admin.java:332	System.out.print is used
+src/Admin.java:333	System.out.print is used
+src/Admin.java:359	Avoid empty catch blocks
+src/Login.java:1	Avoid unused imports such as 'java.awt.BorderLayout'
+src/Login.java:1	Avoid unused imports such as 'java.awt.BorderLayout'
+src/Login.java:2	Avoid unused imports such as 'java.awt.EventQueue'
+src/Login.java:2	Avoid unused imports such as 'java.awt.EventQueue'
+src/Login.java:3	Avoid duplicate imports such as 'javax.swing.JFrame'
+src/Login.java:4	Avoid duplicate imports such as 'javax.swing.JPanel'
+src/Login.java:13	All classes and interfaces must belong to a named package
+src/Login.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:15	Perhaps 'contentPane' could be replaced by a local variable.
+src/Login.java:15	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/Login.java:16	Avoid excessively long variable names like Username_TextField
+src/Login.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:16	Private field 'Username_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Login.java:16	Variables should start with a lowercase character
+src/Login.java:16	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/Login.java:17	Avoid excessively long variable names like Password_PasswordField
+src/Login.java:17	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:17	Private field 'Password_PasswordField' could be made final; it is only initialized in the declaration or constructor.
+src/Login.java:17	Variables should start with a lowercase character
+src/Login.java:17	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/Login.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:18	Perhaps 'Exit_Button' could be replaced by a local variable.
+src/Login.java:18	Private field 'Exit_Button' could be made final; it is only initialized in the declaration or constructor.
+src/Login.java:18	Variables should start with a lowercase character
+src/Login.java:21	Method names should not contain underscores
+src/Login.java:21	Method names should not start with capital letters
+src/Login.java:21	Parameter 'Password' is not assigned and could be declared final
+src/Login.java:21	Parameter 'Username' is not assigned and could be declared final
+src/Login.java:25	Ensure that resources like this Connection object are closed after use
+src/Login.java:25	Local variable 'con' could be declared final
+src/Login.java:26	Local variable 'statement' could be declared final
+src/Login.java:27	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:27	Local variable 'result' could be declared final
+src/Login.java:33	A method should have only one exit point, and that should be the last statement in the method
+src/Login.java:36	A method should have only one exit point, and that should be the last statement in the method
+src/Login.java:39	Avoid empty catch blocks
+src/Login.java:46	It is a good practice to call super() in a constructor
+src/Login.java:54	Local variable 'Login_Button' could be declared final
+src/Login.java:57	Parameter 'arg0' is not assigned and could be declared final
+src/Login.java:60	Local variable 'Username' could be declared final
+src/Login.java:72	Avoid variables with short names like ta
+src/Login.java:77	Avoid empty catch blocks
+src/Login.java:98	Parameter 'arg0' is not assigned and could be declared final
+src/Login.java:99	System.exit() should not be used in J2EE/JEE apps
+src/Main.java:7	All classes and interfaces must belong to a named package
+src/Main.java:7	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Main.java:8	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/Main.java:8	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/Main.java:8	Parameter 'args' is not assigned and could be declared final
+src/Main.java:9	Local variable 'login' could be declared final
+src/Tamias.java:1	Avoid unused imports such as 'java.awt.BorderLayout'
+src/Tamias.java:1	Avoid unused imports such as 'java.awt.BorderLayout'
+src/Tamias.java:2	Avoid unused imports such as 'java.awt.EventQueue'
+src/Tamias.java:2	Avoid unused imports such as 'java.awt.EventQueue'
+src/Tamias.java:23	All classes and interfaces must belong to a named package
+src/Tamias.java:23	The class 'Tamias' has a Cyclomatic Complexity of 8 (Highest = 15).
+src/Tamias.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Tamias.java:25	Perhaps 'contentPane' could be replaced by a local variable.
+src/Tamias.java:25	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/Tamias.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Tamias.java:26	Use explicit scoping instead of the default package private level
+src/Tamias.java:26	Variables should start with a lowercase character
+src/Tamias.java:27	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Tamias.java:27	Private field 'Route_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Tamias.java:27	Variables should start with a lowercase character
+src/Tamias.java:27	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/Tamias.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Tamias.java:28	Private field 'Day_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Tamias.java:28	Variables should start with a lowercase character
+src/Tamias.java:28	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/Tamias.java:29	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Tamias.java:29	Private field 'Time_TextField' could be made final; it is only initialized in the declaration or constructor.
+src/Tamias.java:32	Method names should not contain underscores
+src/Tamias.java:32	Parameter 'Username' is not assigned and could be declared final
+src/Tamias.java:38	It is a good practice to call super() in a constructor
+src/Tamias.java:38	The constructor 'Tamias' has a Cyclomatic Complexity of 15.
+src/Tamias.java:46	Local variable 'btnNewButton' could be declared final
+src/Tamias.java:50	Local variable 'lblNewLabel' could be declared final
+src/Tamias.java:55	Local variable 'scrollPane_1' could be declared final
+src/Tamias.java:59	Avoid excessively long variable names like Announcement_TextArea_1
+src/Tamias.java:62	Local variable 'scrollPane' could be declared final
+src/Tamias.java:69	Local variable 'lblNewLabel_1' could be declared final
+src/Tamias.java:109	Avoid excessively long variable names like Print_Ticket_Label
+src/Tamias.java:118	Parameter 'arg0' is not assigned and could be declared final
+src/Tamias.java:126	Ensure that resources like this Connection object are closed after use
+src/Tamias.java:126	The String literal "bF2*sC8!" appears 4 times in this file; the first occurrence is on line 126
+src/Tamias.java:126	The String literal "jdbc:mysql://sql2.freesqldatabase.com:3306/sql22538" appears 4 times in this file; the first occurrence is on line 126
+src/Tamias.java:126	The String literal "sql22538" appears 4 times in this file; the first occurrence is on line 126
+src/Tamias.java:128	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/Tamias.java:128	Ensure that resources like this ResultSet object are closed after use
+src/Tamias.java:135	Avoid empty catch blocks
+src/Tamias.java:149	Ensure that resources like this Connection object are closed after use
+src/Tamias.java:151	Ensure that resources like this ResultSet object are closed after use
+src/Tamias.java:165	Avoid empty catch blocks
+src/Tamias.java:181	Avoid variables with short names like e
+src/Tamias.java:181	Parameter 'e' is not assigned and could be declared final
+src/Tamias.java:183	Found 'DU'-anomaly for variable 'Day' (lines '183'-'263').
+src/Tamias.java:183	Found 'DU'-anomaly for variable 'Day' (lines '183'-'263').
+src/Tamias.java:185	Found 'DU'-anomaly for variable 'time' (lines '185'-'263').
+src/Tamias.java:185	Found 'DU'-anomaly for variable 'time' (lines '185'-'263').
+src/Tamias.java:186	Found 'DU'-anomaly for variable 'Route' (lines '186'-'263').
+src/Tamias.java:186	Found 'DU'-anomaly for variable 'Route' (lines '186'-'263').
+src/Tamias.java:197	Ensure that resources like this Connection object are closed after use
+src/Tamias.java:223	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/Tamias.java:237	Avoid empty catch blocks
+src/Tamias.java:249	Avoid empty catch blocks
+src/announcement.java:1	All classes and interfaces must belong to a named package
+src/announcement.java:1	Class names should begin with an uppercase character
+src/announcement.java:8	Parameter 'annText' is not assigned and could be declared final
+src/route.java:2	All classes and interfaces must belong to a named package
+src/route.java:2	Class names should begin with an uppercase character
+src/route.java:3	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/route.java:4	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/route.java:5	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/route.java:6	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/route.java:7	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/route.java:8	Avoid unused private fields such as 'route'.
+src/route.java:8	It is somewhat confusing to have a field name matching the declaring class name
+src/route.java:10	Parameter 'busName' is not assigned and could be declared final
+src/route.java:10	Parameter 'day' is not assigned and could be declared final
+src/route.java:10	Parameter 'route' is not assigned and could be declared final
+src/route.java:10	Parameter 'seats' is not assigned and could be declared final
+src/route.java:10	Parameter 'ticketPrice' is not assigned and could be declared final

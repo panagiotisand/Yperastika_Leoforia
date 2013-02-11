@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2013-02-10T01:02:44.954">
+<file name="src/Admin.java">
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.IOException'
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.IOException'
+</violation>
+<violation beginline="29" endline="373" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="29" endline="373" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Admin' has a Cyclomatic Complexity of 7 (Highest = 12).
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'contentPane' could be replaced by a local variable.
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like AnnouncementCounter
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="35" endline="35" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="35" endline="35" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Name_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Day_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Time_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Route_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Code_Day_TextField
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Send_Announcement_TextField
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Announcement_TextArea
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="MethodNamingConventions" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'Username' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="372" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="60" endline="372" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The constructor 'Admin' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="60" endline="372" begincolumn="0" endcolumn="0" rule="NcssConstructorCount" ruleset="Code Size Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NcssConstructorCount" priority="3">
+The constructor with 0 parameters has an NCSS line count of 101
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'label' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lblNewLabel' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'separator' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'label_1' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'label_2' could be declared final
+</violation>
+<violation beginline="165" endline="165" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Announcement_TextArea_1
+</violation>
+<violation beginline="184" endline="184" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="191" endline="191" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="191" endline="191" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;bF2*sC8!&quot; appears 5 times in this file; the first occurrence is on line 191
+</violation>
+<violation beginline="191" endline="191" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;jdbc:mysql://sql2.freesqldatabase.com:3306/sql22538&quot; appears 5 times in this file; the first occurrence is on line 191
+</violation>
+<violation beginline="191" endline="191" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;sql22538&quot; appears 5 times in this file; the first occurrence is on line 191
+</violation>
+<violation beginline="193" endline="193" begincolumn="0" endcolumn="0" rule="CheckResultSet" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CheckResultSet" priority="3">
+Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+</violation>
+<violation beginline="193" endline="193" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="200" endline="201" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="214" endline="214" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="216" endline="216" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="230" endline="231" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="248" endline="248" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="248" endline="248" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="262" endline="262" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="262" endline="262" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="270" endline="270" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="273" endline="273" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="276" endline="276" begincolumn="0" endcolumn="0" rule="CheckResultSet" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CheckResultSet" priority="3">
+Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+</violation>
+<violation beginline="279" endline="279" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like C
+</violation>
+<violation beginline="279" endline="280" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+</violation>
+<violation beginline="279" endline="280" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+</violation>
+<violation beginline="279" endline="280" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+</violation>
+<violation beginline="279" endline="280" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'C' (lines '279'-'280').
+</violation>
+<violation beginline="288" endline="288" begincolumn="0" endcolumn="0" rule="CheckResultSet" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CheckResultSet" priority="3">
+Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+</violation>
+<violation beginline="299" endline="300" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="316" endline="316" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="316" endline="316" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="329" endline="329" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="330" endline="330" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="332" endline="332" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="333" endline="333" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="359" endline="360" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Admin" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="src/Login.java">
+<violation beginline="1" endline="1" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.BorderLayout'
+</violation>
+<violation beginline="1" endline="1" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.BorderLayout'
+</violation>
+<violation beginline="2" endline="2" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.EventQueue'
+</violation>
+<violation beginline="2" endline="2" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.EventQueue'
+</violation>
+<violation beginline="3" endline="3" begincolumn="0" endcolumn="0" rule="DuplicateImports" ruleset="Import Statement Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#DuplicateImports" priority="4">
+Avoid duplicate imports such as 'javax.swing.JFrame'
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="DuplicateImports" ruleset="Import Statement Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#DuplicateImports" priority="4">
+Avoid duplicate imports such as 'javax.swing.JPanel'
+</violation>
+<violation beginline="13" endline="125" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'contentPane' could be replaced by a local variable.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Username_TextField
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Username_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Password_PasswordField
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Password_PasswordField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'Exit_Button' could be replaced by a local variable.
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Exit_Button' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodNamingConventions" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#MethodNamingConventions" priority="1">
+Method names should not start with capital letters
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'Password' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'Username' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'con' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'statement' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="39" endline="40" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="46" endline="124" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'Login_Button' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'Username' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ta
+</violation>
+<violation beginline="77" endline="77" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="98" endline="98" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="99" endline="99" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="(default)" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+</file>
+<file name="src/Main.java">
+<violation beginline="7" endline="12" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Naming Rules" package="(default)" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="7" endline="12" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="(default)" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="(default)" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="(default)" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'login' could be declared final
+</violation>
+</file>
+<file name="src/Tamias.java">
+<violation beginline="1" endline="1" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.BorderLayout'
+</violation>
+<violation beginline="1" endline="1" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.BorderLayout'
+</violation>
+<violation beginline="2" endline="2" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.EventQueue'
+</violation>
+<violation beginline="2" endline="2" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.EventQueue'
+</violation>
+<violation beginline="23" endline="264" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="23" endline="264" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Tamias' has a Cyclomatic Complexity of 8 (Highest = 15).
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'contentPane' could be replaced by a local variable.
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Route_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Day_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'Time_TextField' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="MethodNamingConventions" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'Username' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="263" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="38" endline="263" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The constructor 'Tamias' has a Cyclomatic Complexity of 15.
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'btnNewButton' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lblNewLabel' could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'scrollPane_1' could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Announcement_TextArea_1
+</violation>
+<violation beginline="62" endline="62" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'scrollPane' could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lblNewLabel_1' could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like Print_Ticket_Label
+</violation>
+<violation beginline="118" endline="118" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="126" endline="126" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="126" endline="126" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;bF2*sC8!&quot; appears 4 times in this file; the first occurrence is on line 126
+</violation>
+<violation beginline="126" endline="126" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;jdbc:mysql://sql2.freesqldatabase.com:3306/sql22538&quot; appears 4 times in this file; the first occurrence is on line 126
+</violation>
+<violation beginline="126" endline="126" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;sql22538&quot; appears 4 times in this file; the first occurrence is on line 126
+</violation>
+<violation beginline="128" endline="128" begincolumn="0" endcolumn="0" rule="CheckResultSet" ruleset="Basic Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CheckResultSet" priority="3">
+Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+</violation>
+<violation beginline="128" endline="128" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="135" endline="136" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="149" endline="149" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="151" endline="151" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="165" endline="166" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="181" endline="181" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="181" endline="181" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="183" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'Day' (lines '183'-'263').
+</violation>
+<violation beginline="183" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'Day' (lines '183'-'263').
+</violation>
+<violation beginline="185" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'time' (lines '185'-'263').
+</violation>
+<violation beginline="185" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'time' (lines '185'-'263').
+</violation>
+<violation beginline="186" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'Route' (lines '186'-'263').
+</violation>
+<violation beginline="186" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'Route' (lines '186'-'263').
+</violation>
+<violation beginline="197" endline="197" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="223" endline="223" begincolumn="0" endcolumn="0" rule="CheckResultSet" ruleset="Basic Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CheckResultSet" priority="3">
+Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+</violation>
+<violation beginline="237" endline="238" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="249" endline="250" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="(default)" class="Tamias" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="src/announcement.java">
+<violation beginline="1" endline="11" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Naming Rules" package="(default)" class="announcement" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="1" endline="11" begincolumn="0" endcolumn="0" rule="ClassNamingConventions" ruleset="Naming Rules" package="(default)" class="announcement" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ClassNamingConventions" priority="1">
+Class names should begin with an uppercase character
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="announcement" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'annText' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/route.java">
+<violation beginline="2" endline="45" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Naming Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="2" endline="45" begincolumn="0" endcolumn="0" rule="ClassNamingConventions" ruleset="Naming Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ClassNamingConventions" priority="1">
+Class names should begin with an uppercase character
+</violation>
+<violation beginline="3" endline="3" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'route'.
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="AvoidFieldNameMatchingTypeName" ruleset="Naming Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#AvoidFieldNameMatchingTypeName" priority="3">
+It is somewhat confusing to have a field name matching the declaring class name
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'busName' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'day' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'route' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'seats' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="(default)" class="route" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ticketPrice' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>
